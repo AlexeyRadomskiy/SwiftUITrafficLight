@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6C7C88E827F7506E00555792 /* SwiftUITrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C88E727F7506E00555792 /* SwiftUITrafficLightApp.swift */; };
-		6C7C88EA27F7506E00555792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C88E927F7506E00555792 /* ContentView.swift */; };
+		6C7C88EA27F7506E00555792 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C88E927F7506E00555792 /* ColorLight.swift */; };
 		6C7C88EC27F7506F00555792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C88EB27F7506F00555792 /* Assets.xcassets */; };
 		6C7C88EF27F7506F00555792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C88EE27F7506F00555792 /* Preview Assets.xcassets */; };
+		6C7C88F627F752E900555792 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C88F527F752E900555792 /* ChangeColorButton.swift */; };
+		6C7C88F827F755E900555792 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C88F727F755E900555792 /* TrafficLightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C7C88E427F7506E00555792 /* SwiftUITrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7C88E727F7506E00555792 /* SwiftUITrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITrafficLightApp.swift; sourceTree = "<group>"; };
-		6C7C88E927F7506E00555792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C7C88E927F7506E00555792 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
 		6C7C88EB27F7506F00555792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C7C88EE27F7506F00555792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C7C88F527F752E900555792 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
+		6C7C88F727F755E900555792 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				6C7C88E727F7506E00555792 /* SwiftUITrafficLightApp.swift */,
-				6C7C88E927F7506E00555792 /* ContentView.swift */,
+				6C7C88F727F755E900555792 /* TrafficLightView.swift */,
+				6C7C88E927F7506E00555792 /* ColorLight.swift */,
+				6C7C88F527F752E900555792 /* ChangeColorButton.swift */,
 				6C7C88EB27F7506F00555792 /* Assets.xcassets */,
 				6C7C88ED27F7506F00555792 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C7C88EA27F7506E00555792 /* ContentView.swift in Sources */,
+				6C7C88EA27F7506E00555792 /* ColorLight.swift in Sources */,
+				6C7C88F627F752E900555792 /* ChangeColorButton.swift in Sources */,
 				6C7C88E827F7506E00555792 /* SwiftUITrafficLightApp.swift in Sources */,
+				6C7C88F827F755E900555792 /* TrafficLightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +289,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.SwiftUITrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,12 +318,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.SwiftUITrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
